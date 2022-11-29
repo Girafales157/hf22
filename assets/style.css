@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border-style: none;
+    font-size: 62.5%;
+}
+
+body{
+    background: url('../assets/img/img-background.png') center center no-repeat;
+    background-size: 100%;
+    background-position: 0 -1px;
+    display: flexbox;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    height: 70px;
+
+    align-items: center;
+    
+    border-bottom: 3px solid #3cb371;
+    background: white;
+}
+
+.cabecalho .logo {
+    display: flex;
+
+    align-items: center;
+
+    margin-left: 8%;
+}
+
+.logo #name-img {
+    width: 30%;
+    padding-left: 52px;
+}
+
+.logo #apple-img {
+    width: 5%;
+
+    position: absolute;
+}
+
+.buscar {
+    position: relative;
+    margin-right: 6%;
+}
+
+.buscar input:hover {
+    background: white;
+    box-shadow: 0 0 5px 0 #E0F3E8;
+    border-radius: 10px;
+    transition: 0.1s all;
+}
+.buscar input:focus {
+    background: white;
+    box-shadow: 0 0 5px 0 #E0F3E8;
+    border-radius: 10px;
+    outline: 0;
+}
+
+.buscar input {
+    background: #F9F9F9;
+    width: 45rem;
+    height: 35px;
+    padding-left: 50px;
+
+    border: 0;
+    border-radius: 10px;
+}
+
+.buscar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin-top: 1.5%;
+    margin-left: 3%;
+    width: 15px;
+}
+
+.buscar input::placeholder {
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #C4C4C4;
+}
+
+.home {
+    margin: 8%;
+}
+
+span {
+    font-size: 5rem;
+
+    color: #277349;
+}
+
+aside h2 {
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 60px;
+}
+
+aside p {
+    font-size: 2rem;
+    margin-block: 23px 49px;
+}
+
+.btn button {
+    display: block;
+    background: white;
+    color: #277349;
+    width: 25%;
+    height: 30%;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#btn-enter:hover {
+    background: transparent;
+    color: white;
+    transition: 0.2s all;
+    border: 2px solid white;
+}
+
+#btn-reg {
+    margin-top: 25px;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+}
+
+#btn-reg:hover {
+    background: white;
+    color: #277349;
+    transition: 0.2s all;
+}
+
+.categ {
+    display: flexbox;
+    height: 900px;
+    margin-top: 19%;
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#title span {
+    font-size: 3rem;
+}
+
+.categ h2 {
+    color: #000000;
+    font-size: 3.3rem;
+    font-weight: 600;
+}
+
+.categ p {
+    color: #000000;
+    font-size: 2.3rem;
+}
+
+.cards {
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 900px;
+}
+
+.card {
+    background: #F9F9F9;
+    box-shadow: 3px 3px 5px 0 #E8E8E8;
+    border-radius: 12px;
+    margin-inline: 6%;
+    margin-block: 8%;
+    padding: 1rem;
+    width: 22rem;
+    height: 20rem;
+    font-size: 2rem;
+}
+
+.card.bot {
+    margin-left: 50%;
+}
+
+.card img {
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+
+@media (min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-block: 0;
+        margin-left: 30%;
+    }
+    .card.bot {
+        margin-left: 6%;
+    }
+    aside h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    aside span {
+        font-size: 3rem;
+    }
+    aside p {
+        font-size: 1.6rem;
+    }
+}
