@@ -1,0 +1,62 @@
+@media (min-width: 550px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/*
+@media (min-width: 7500px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}*/
+
+@media (max-width: 800px) {
+    .buscar {
+        display: flex;
+        margin: 0;
+    }
+
+    .buscar #lupa {
+        align-items: center;
+    }
+    .buscar input {
+        background: 0;
+        width: 0;
+    }
+    .buscar input::placeholder {
+         opacity: 0;
+    }
+    .buscar input:hover {
+        box-shadow: none;
+        transition: 0.1s all;
+    }
+    .buscar input:focus {
+        background: white;
+        box-shadow: none;
+        border-radius: 10px;
+        outline: 0;
+    }
+    #title {
+        margin-top: 20%;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-block: 0;
+        margin-left: 30%;
+    }
+    .card.bot {
+        margin-left: 6%;
+    }
+    aside h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    aside span {
+        font-size: 3rem;
+    }
+    aside p {
+        font-size: 1.6rem;
+    }
+}

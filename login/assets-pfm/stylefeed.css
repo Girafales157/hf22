@@ -1,0 +1,339 @@
+
+    /* 
+@-ms-viewport {
+    width: device-width;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border-style: none;
+    font-size: 62.5%;
+}
+
+ul li {
+    list-style: none;
+}
+
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    height: 70px;
+
+    align-items: center;
+    
+    border-bottom: 3px solid #3cb371;
+    background: white;
+}
+
+.cabecalho .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.logo #name-img {
+    width: 25%;
+    padding-left: 8%;
+}
+
+.logo #apple-img {
+    width: 4.5%;
+    position: absolute;
+}
+
+.buscar {
+    display: flex;
+    position: relative;
+    margin-right: 6%;
+}
+
+
+.buscar input:hover {
+    background: white;
+    box-shadow: 0 0 5px 0 #E0F3E8;
+    border-radius: 10px;
+    transition: 0.1s all;
+}
+
+.buscar input:focus {
+    background: white;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    box-shadow: 0 0 5px 0 #E0F3E8;
+    border-radius: 10px;
+    outline: 0;
+}
+
+.buscar input {
+    background: #F9F9F9;
+    width: 45rem;
+    height: 35px;
+    padding-left: 50px;
+
+    border: 0;
+    border-radius: 10px;
+}
+
+.buscar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 2%;
+
+    margin-left: 4%;
+    width: 15px;
+}
+
+.buscar input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #C4C4C4;
+}
+
+.categ {
+    width: 100%;
+
+    margin-top: 5%
+}
+
+#pub-btn {
+    background: transparent;    
+    position: fixed;
+    top: 85%;
+    right: 5%;
+    width: 40px;
+    height: 40px;
+}
+
+#title {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+#title span {
+    color: #3cb371;
+    font-size: 3rem;
+}
+
+.categ h2 {
+    color: #000000;
+    font-size: 3.3rem;
+    font-weight: 600;
+}
+
+.categ p {
+    color: #000000;
+    font-size: 2.3rem;
+}
+
+.cards {
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 900px;
+}
+
+.card {
+    background: #F9F9F9;
+    box-shadow: 3px 3px 5px 0 #E8E8E8;
+    border-radius: 12px;
+    margin-inline: 6%;
+    margin-block: 8%;
+    padding: 1rem;
+    width: 22rem;
+    height: 20rem;
+    font-size: 2rem;
+}
+
+.card.bot {
+    margin-left: 50%;
+}
+
+.card img {
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+
+.posts {
+    margin-left: 9%;
+    margin-block: 5%;
+}
+
+.receitas {
+    margin-top: 9%;
+    margin-bottom: 8%;
+    max-width: 1200px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.receitas::-webkit-scrollbar {
+    display: none;
+}
+
+.rec {
+    background: #F9F9F9;
+    margin-left: 2%;
+    min-width: 45rem;
+    height: 20rem;
+    border-radius: 15px;    
+}
+
+#pop-tittle, #ult-tittle {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: -6% 0 1.5% 2%;
+}
+
+#ult-tittle {
+    margin-top: 4%;
+}
+
+.pop, .ult {
+    display: flex;    
+    align-items: center;
+    max-width: 1200px;
+    overflow-x: auto;
+}
+
+.pop::-webkit-scrollbar {
+    display: none;
+}
+
+.ult::-webkit-scrollbar {
+    display: none;
+}
+
+.post, .post-ult {
+    border-radius: 10px;
+    min-width: 175px;
+    height: 185px;
+    margin-left: 2%;
+    box-shadow: 0 2px 4px 0 #E8E8E8;
+}
+
+#more-btn {
+    margin-left: 2%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+    width: 80px;
+    height: 1000px;
+    top: 0;
+    box-shadow: 0.5px 0 4px 0 #E8E8E8;
+}
+
+.menu nav ul {
+    margin-top: 6rem;
+}
+
+.menu-img {
+    margin-bottom: 6rem;
+}
+
+.menu #photo {
+    margin-top: 22rem;
+}
+
+.menu-img:hover {
+    cursor: pointer;
+}
+PERFIL */
+
+.profile {
+    display: none; /*mudar pra flexbox*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    width: 350px;
+    height: 420px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 12%;
+    background: #F9F9F9;
+    box-shadow: 0px 0px 5px #36AC6A;
+}
+
+#profile-photo {
+    margin-top: 12%;
+    width: 130px;
+    height: 130px;
+}
+
+#stud-icon {
+    position: relative;
+    margin-left: -40px;
+}
+
+
+
+#nivel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #277349;
+    background-color: #CEECDB;
+    width: 185px;
+    height: 35px;
+    border-radius: 15px;
+    margin-block: 2.1rem;
+}
+
+#nome {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.user-info #line {
+    width: 2px;
+    height: 14px;
+    background: #DDDDDD;
+    margin-inline: 0.7rem;
+}
+
+#edit-profile {
+    width: 160px;
+    height: 40px;
+    font-size: 1.2rem;
+    border: 1px solid #3cb371;
+    border-radius: 10px;
+}
+
+

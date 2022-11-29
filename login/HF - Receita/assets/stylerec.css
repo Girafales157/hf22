@@ -1,0 +1,217 @@
+@-ms-viewport {
+    width: device-width;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border-style: none;
+    font-size: 62.5%;
+}
+
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+}
+
+body {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.receita {
+    background: #F9F9F9;
+    min-width: 400px;
+}
+
+.receita::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.opts {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 3%;
+    position: fixed;
+    top: 0;
+}
+
+.opts img {
+    height: 2.6rem;
+    margin-right: 18px;
+    right: 0; 
+}
+
+#back-icon {
+    margin-right: 27rem;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    transform: translateY(-2%);
+    margin-top: 9rem;
+
+    height: min-content;
+    width: 412px;
+    border-radius: 20px;
+}
+.rec-img img {
+    width: 100%;                              
+}
+ 
+.autor {
+    display: flex;
+    justify-content: none;
+    align-items: center;
+    border-left: 3px solid #FF863D;
+    padding-left: 3%;
+    margin-inline: 8%;
+    margin-block: 3rem;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+#autor-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+#autor-name {
+    margin-left: 3.3%;
+}
+
+h2 {
+    font-size: 2.6rem;
+    margin-top: 3rem;
+}
+
+h2, .categ2, .etp {
+    margin-left: 3.6rem;
+}
+
+
+
+.rec-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info2 {
+    display: flexbox;
+    width: 15rem;
+    height: 7rem;
+    margin-bottom: 1.6rem;
+    padding: 3%;
+
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.1);;
+    background: #F9F9F9;
+}
+
+.rec-info .margin {
+    margin-left: 3rem;
+}
+
+.info2 p{
+    font-size: 1.4rem;
+    color: #808080;
+    margin-top: 2%;
+}
+
+.info2 p span {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #3BC371;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: row;
+}
+
+.categ2 {
+    display: flex;
+
+    font-size: 1.4rem;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    color: #277349;
+
+    background: #CEECDB;
+    border-radius: 100px;
+    padding-block: 5px;
+
+    padding-inline: 24px;
+    margin: 3rem 0 0 3.6rem;
+    width: max-content;
+    height: 3rem;
+}
+
+.etapas {
+    display: flex;
+    margin-block: 8%;
+    font-size: 2.2rem;
+    color: #090A11;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+details {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.ing-desc {
+    display: flex;
+    justify-content: space-between;
+    max-width: 335px;
+    margin-block: 12px;
+    height: 36px;
+    border-bottom: 2px solid #FF863D;
+}
+
+.ing-desc p, span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.ing-desc span {
+    font-weight: 600;
+    color: #090A11;
+}
+
+summary {
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    margin-block: 15px;
+}
+
+.passos {
+    max-width: 340px;
+}
+.passos p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3.3rem;
+    margin-bottom: 8%;
+}
+.pass::first-letter {
+    padding: 1.5% 4%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-right: 2%;
+    border: 2px solid #FF863D;
+    border-radius: 50px;
+    color: #FF863D;
+}
+

@@ -1,0 +1,188 @@
+/* MAIOR QUE 500  */
+@media (min-width: 500px) {
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        border-style: none;
+        font-size: 62.5%;
+    }
+    .receita {
+        background-color: white;
+        margin: auto;
+        border-radius: 20px;
+        width: 100rem;
+        height: 80rem;
+        padding: none;
+        box-shadow: 0 0 5px 0 #36AC6A;        
+        transform: translateY(10%);
+        overflow-y: auto;
+    }
+    .opts {
+        display: flex;
+    }
+    #back-icon {
+        margin-right: 84rem;
+    }
+    #share-icon {
+        display: none;
+    }
+    .autor {
+        display: flex;
+        justify-content: none;
+        align-items: center;
+        padding-left: 2.5%;
+        margin-bottom: 3rem;
+        font-size: 2.8rem;
+    }
+    #autor-name {
+        margin-left: 2%;
+    }
+    .rec-info {
+        margin-left: 3.2rem;
+    }
+    .rec-img img {
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        margin: auto;
+        width: 60%;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h2, .categ, .autor {
+        margin-left: 5rem;
+    }
+    aside {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0;
+        transform: none;        
+    }
+    .info {
+        margin-inline: 1%;
+    }
+    .info p{
+        font-size: 1.6rem;
+    }
+    .info p span {
+        font-size: 1.8rem;
+    }
+    .categ {
+        font-size: 1.6rem;
+        padding-block: 6px;
+        padding-inline: 26px;
+    }
+    .etapas {
+        display: flex;
+        align-items: center;
+        margin-block: 5%;
+        margin-left: 14%;
+        border-left: 3px solid #FF863D;
+        padding-left: 8px;
+        width: 300px;
+        height: 16px;
+        font-size: 2.6rem;
+    }
+    details {
+        margin-bottom: 3%;
+    }
+    .ing-desc {
+        display: flex;
+        margin: auto;
+        padding-top: 1%;
+        max-width: 68rem;
+        border-bottom: 2px solid #FF863D;
+    }
+    .ing-desc p, span{
+        font-size: 1.8rem;
+    }
+    summary {
+        display: flex;
+        font-size: 2rem;
+        margin-left: 14%;
+ 
+    }
+    .passos {
+        max-width: 66rem;
+        margin-left: 14%;
+    }
+    .passos p {
+        font-size: 1.8rem;
+
+        margin-bottom: 5%;
+    }
+    .pass::first-letter {
+        padding: 1% 2.4%;
+    }
+}
+
+/* MENOR QUE 1200px  */
+@media (min-width: 500px) and (max-width: 1200px) {
+    .receita {
+        width: 90rem;
+        height: 55rem;
+        padding: none;
+        box-shadow: 0 0 5px 0 #36AC6A;        
+        transform: translateY(5%);
+        overflow-y: auto;
+    }
+    #back-icon {
+        margin-right: 76rem;
+    }
+    #share-icon {
+        display: none;
+    }
+    .autor {
+        display: flex;
+        justify-content: none;
+        padding-left: 2%;
+        margin-inline: 5%;
+    }
+    .ing-desc {
+        display: flex;
+        margin: auto;
+        padding-top: 1%;
+        max-width: 65rem;
+    }
+}
+
+/* MENOR QUE 1400px  */
+@media (min-width: 500px) and (max-width: 1400px) {
+    .receita {
+        width: 94rem;
+        height: 60rem;
+        padding: none;
+        box-shadow: 0 0 5px 0 #36AC6A;        
+        transform: translateY(5%);
+        overflow-y: auto;
+    }
+    #back-icon {
+        margin-right: 80rem;
+    }
+    #share-icon {
+        display: none;
+    }
+    .autor {
+        margin-inline: 5%;
+        font-size: 2.8rem;
+    }
+    #autor-name {
+        margin-right: 71%;
+    }
+    #direct-icon {
+        display: none;
+    }
+    .ing-desc {
+        display: flex;
+        margin: auto;
+        padding-top: 1%;
+        max-width: 64rem;
+    }
+    summary {
+        display: flex;
+        margin-left: 14%;
+    }
+}
